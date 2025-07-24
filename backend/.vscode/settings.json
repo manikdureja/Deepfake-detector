@@ -1,0 +1,9 @@
+{
+  "python.pythonPath": "tf-env/bin/python",
+  "python.analysis.extraPaths": [
+    "./tf-env/lib/python3.10/site-packages"
+  ],
+  "python.analysis.indexing": true,
+  "python.analysis.autoSearchPaths": true,
+  "python.venvPath": "./"
+}
