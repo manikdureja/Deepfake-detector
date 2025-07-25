@@ -5,7 +5,8 @@ from werkzeug.utils import secure_filename
 import tensorflow as tf
 import numpy as np
 from PIL import Image
-from tensorflow.keras.preprocessing.image import img_to_array
+from tensorflow.keras.utils import img_to_array
+# from tensorflow.keras.preprocessing.image import img_to_array
 import cv2
 
 app = Flask(__name__)
